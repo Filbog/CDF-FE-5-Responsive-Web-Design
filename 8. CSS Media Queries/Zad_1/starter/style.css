@@ -1,0 +1,9 @@
+@media (prefers-color-scheme: light) {
+    .class3 {
+        background: red;
+    }
+}
+
+body{
+    /* background: red; */
+}

@@ -1,0 +1,40 @@
+table{
+    width: 500px;
+    border: 1px solid black;
+    background: rgb(236, 236, 201);
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+.col-1{
+    width: 200px;
+}
+
+.row-1{
+    color: white;
+    background-color: darkgray;
+}
+
+.row-1 th {
+    /* border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black; */
+    border: 3px solid black;
+}
+
+/* .row-1 th:last-child{
+    border-right: 3px solid black;
+}
+
+.row-1 th:first-child{
+    border-left: 3px solid black;
+} */
+
+td, th {
+    padding: 3px;
+}
+
+td{
+    border: 1px solid black;
+}

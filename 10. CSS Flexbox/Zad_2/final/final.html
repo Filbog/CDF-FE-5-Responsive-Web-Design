@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">link1</a></li>
+					<li><a href="#">link2</a></li>
+					<li><a href="#">link3</a></li>
+					<li><a href="#">link4</a></li>
+					<li><a href="#">link5</a></li>
+					<li><a href="#">link6</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<section class="article-cards-container">
+				<div class="article-card">
+					<h2>Tytuł</h2>
+					<img src="https://picsum.photos/200" />
+				</div>
+				<div class="article-card">
+					<h2>Tytuł</h2>
+					<img src="https://picsum.photos/200" />
+				</div>
+				<div class="article-card">
+					<h2>Tytuł</h2>
+					<img src="https://picsum.photos/200" />
+				</div>
+				<div class="article-card">
+					<h2>Tytuł</h2>
+					<img src="https://picsum.photos/200" />
+				</div>
+				<div class="article-card">
+					<h2>Tytuł</h2>
+					<img src="https://picsum.photos/200" />
+				</div>
+				<div class="article-card">
+					<h2>Tytuł</h2>
+					<img src="https://picsum.photos/200" />
+				</div>
+			</section>
+
+			<article>
+				Lorem ipsum dolor sit amet. Eos neque saepe nam laboriosam praesentium
+				est similique deleniti eum soluta nihil aut officiis unde. Sed magni
+				unde eos molestiae aliquam et commodi voluptas. Et velit omnis est nobis
+				nesciunt hic voluptatibus maiores quo omnis libero ad nihil molestias ut
+				dolor autem qui quia quos? Aut repudiandae omnis qui quos ipsum est
+				consequatur quia ut nobis ipsa ex eligendi cupiditate aut quaerat
+				consequatur. Non sint maiores est molestiae reprehenderit et aspernatur
+				rerum qui suscipit officia. A deserunt incidunt est sint cupiditate aut
+				nisi veritatis quo voluptatum eaque et error quos. 33 voluptatem rerum
+				sed ipsa quidem in voluptatem rerum est deserunt molestiae ut omnis
+				voluptatum non ipsum veritatis. Est laboriosam consequatur id voluptatum
+				iusto ad sint molestiae in aliquam tempora quo repellendus ratione eos
+				ullam voluptas. Et praesentium animi ex adipisci distinctio et rerum
+				quae At repellat facere! Ut aliquid autem est quae ipsa et ipsam atque
+				id placeat quaerat.
+			</article>
+		</main>
+
+		<footer>
+			<img src="https://picsum.photos/50" />
+			<img src="https://picsum.photos/50" />
+			<img src="https://picsum.photos/50" />
+		</footer>
+	</body>
+	<style>
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		html {
+			height: 100%;
+		}
+
+		body {
+			height: 100%;
+			padding: 0 5%;
+			background-color: #4e6b85;
+		}
+
+		header,
+		footer {
+			height: 80px;
+			border: 1px solid black;
+		}
+
+		nav {
+			height: 100%;
+		}
+
+		nav ul {
+			height: 100%;
+			width: 100%;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			align-items: center;
+			list-style: none;
+		}
+
+        nav ul li {
+            border: solid 3px black;
+            background-color: #ffc7c7;
+        }
+
+        .article-cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .article-card {
+            margin: 10px;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media only screen and (max-width: 770px) {
+            h2 {
+                color: red;
+            }
+
+            footer {
+                justify-content: center;
+            }
+        }
+
+        @media only screen and (max-width: 560px) {
+            article {
+                display: none;
+            }
+
+            footer {
+                justify-content: flex-start;
+            }
+        }
+	</style>
+</html>

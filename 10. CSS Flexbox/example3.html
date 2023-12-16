@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body class="flex-container">
+    <header class="flex-child">HEADER</header>
+
+    <main class="flex-child">MAIN CONTENT</main>
+
+    <footer class="flex-child">FOOTER</footer>
+</body>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        height: 100%;
+        width: 100%;
+        background-color: #b0b0b0;
+    }
+
+    .flex-container {
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-child {
+        border: dashed 5px #c800ff;
+        width: 100%;
+    }
+
+    /* zmodyfikuj poniższy kod */
+    main {
+        flex-grow: 2;
+    }
+
+    header,
+    footer {
+        flex-grow: 1
+    }
+
+    /* ---------------------- */
+</style>
+
+</html>

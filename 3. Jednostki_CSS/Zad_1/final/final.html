@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="class1">class1</div>
+        <div class="class2">class2</div>
+        <div class="class3">class3</div>
+    </div>
+</body>
+
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    div {
+        display: inline-block;
+    }
+
+    .parent {
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .class1 {
+        width: 100%;
+        /* width: 100vw; */
+        height: 200px;
+        font-size: 2rem;
+        border: solid 1px black;
+    }
+
+    .class2, .class3 {
+        width: 40%;
+        /* width: 40vw; */
+        height: 200px;
+        font-size: 1.5em;
+        border: solid 1px black;
+    }
+</style>
+
+</html>
